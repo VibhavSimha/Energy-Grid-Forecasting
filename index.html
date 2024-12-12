@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Dashboard</title>
+</head>
+<body class="grid grid-cols-12">
+    <div class="col-span-2 bg-slate-900 flex items-center justify-normal min-h-12 font-medium">
+        <h1 class="text-white p-7">Admin</h1>
+    </div>
+    <div class="col-span-10 bg-gray-100 min-h-12 flex flex-col justify-center">
+        <input type="text" class=" p-2 m-6" placeholder="Search">
+    </div>
+    <div class="col-span-2 bg-slate-800 min-h-screen text-white flex flex-col gap-5">
+        <button class=" hover:bg-slate-400 p-4 text-left">Dashboard</button>
+        <button class="hover:bg-slate-400 p-4 text-left">Power Plants</button>
+        <button class="hover:bg-slate-400 p-4 text-left">Weather Data</button>
+    </div>
+    <div class="col-span-10 bg-gray-100 min-h-screen grid grid-cols-12 grid-rows-6 gap-5">
+        <div class="col-span-12 row-span-1 m-5 bg-white flex items-center">
+            <h1 class="text-5xl p-6">Dashboard</h1>
+        </div>
+        <div class="col-span-4 row-span-1 m-5 bg-white flex items-center rounded-md">
+            <h3 class="block p-6">Production</h3>
+            <h2 class="text-2xl">99999</h2>
+            <img src="https://png.pngtree.com/element_our/sm/20180415/sm_5ad375f0de8f4.png" class="w-12 h-12 ml-[150px]">
+        </div>
+        <div class="col-span-4 row-span-1 m-5 bg-white flex items-center rounded-md">
+            <h3 class="block p-6">Demand</h3>
+            <h2 class="text-2xl">99999</h2>
+            <img src="https://png.pngtree.com/png-clipart/20230816/original/pngtree-electricity-demand-rgb-color-icon-cost-price-development-vector-picture-image_10896302.png" class="w-12 h-12 ml-[150px]">
+        </div>
+        <div class="col-span-4 row-span-1 m-5 bg-white flex items-center rounded-md">
+            <h3 class="block p-6">Cost</h3>
+            <h2 class="text-2xl">99999$</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/7506/7506305.png" class="w-12 h-12 ml-[150px]">
+        </div>
+        <div class="m-5 col-span-12 row-span-4 bg-white">
+            <h3 class="p-5 text-2xl">Chart</h3>
+            <img src="https://www.researchgate.net/publication/335659123/figure/fig2/AS:800160741355521@1567784595766/Comparison-of-Total-Demand-and-Total-Production.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
